@@ -1,0 +1,390 @@
+1.b “Runs-of-zeros”
+a) Permet codificar els símbols ‘zero’ amb un nombre mínim de bits.
+b) Permet codificar cadenes de zeros amb un únic símbol.
+c) Permet codificar eficientment el detall definit a partir de la quantització.
+d) Cap de les anteriors.
+2.a Al codificador d’entropia:
+a) Es produeix compressió, però no hi ha pèrdua.
+b) Es produeix compressió, però hi ha pèrdua.
+c) No es produeix compressió, i no hi ha pèrdua.
+d) No es produeix compressió, però hi ha pèrdua.
+3.b Al codificador d’entropia:
+a) Símbols més freqüents tenen associades paraules de més bits.
+b) Símbols més freqüents tenen associades paraules de menys bits.
+c) Tots els símbols són codificats amb el mateix nombre de bits.
+d) Cap de les anteriors.
+4.a Els coeficients AC de la DCT dintre de l’estàndard JPEG
+a) Són codificats en ziga-zaga sempre.
+b) Són codificats de manera seqüencial per files i columnes.
+c) És possible triar el modus de codificació, per files, o en ziga-zaga.
+d) Cap de les anteriors. 
+5.a Els coeficients de la DCT poden ser interpretats com a:
+a) Els coeficients que multipliquen una base de vectors per reconstruir el bloc 8x8 sense pèrdua.
+b) Els coeficients que multipliquen una base de vectors per reconstruir el bloc 8x8 amb pèrdua.
+c) Els coeficients que multipliquen una base de vectors per reconstruir la imatge.
+d) Cap de les anteriors.
+6.c El coeficient [0,0] de la DCT pot ser interpretat com a:
+a) El nivell de textura màxima de cada bloc.
+b) Un indicador de la quantitat de detall que hi trobem, a cada bloc.
+c) El nivell promig de cada bloc.
+d) Cap de les anteriors.
+7.c Quina de les següents característiques no forma part del baseline de JPEG lossy:
+a) Taules Hauffman customitzables.
+b) Possibilitat de triar entre scaneig entrellaçat o no entrellaçat.
+c) Reconstrucció progressiva.
+d) Cap de les anteriors.
+8.d JPEG lossless implementa una transformació espacial que és aplicada a nivell
+a) de tota la imatge.
+b) de block.
+c) de regions de veïnatge.
+d) Cap de les anteriors.
+9.b JPEG lossy implementa una transformació espacial que és aplicada a nivell
+a) de tota la imatge.
+b) de block.
+c) de regions d’interès perceptual.
+d) Cap de les anteriors.
+10.a Al JPEG es possible fer control del nivell de quantització?
+a) Si, amb un factor d’escala que modifica els coeficients de quantització.
+b) No, perquè les taules de quantització no són modificables.
+c) Sí, si el manufacturer decideix aplicar un nou sistema de quantització al marge del baseline.
+d) Cap de les anteriors.
+11.d En què consisteix el baseline d’un estàndard de codificació d’imatge o vídeo?
+a) És un conjunt obligatori de normes que ha de complir cada encoder i cada decoder.
+b) És un conjunt obligatori de normes que ha de complir cada encoder , però no necessàriament el decoder
+c) És un cojunt opcional de normes que pot està associat a la configuració bàsica del decoder.
+d) Cap de les anteriors.
+12.a La codificació de coeficients de la DCT en progressiu, a diferència de seqüencial...
+a) No fa servir els mateixos ordes de mostreig de coeficients, però si les taules de quantització.
+b) No fa servir els mateixos ordes de mostreig de coeficients, ni les taules de quantització.
+c) Fa servir els mateixos ordes de mostrieg de coeficients, però no les mateixes taules de quantització.
+d) Fa servir els mateixos ordes de mostrieg de coeficients, i les mateixes taules de quantització.
+13.d JPEG fa servir anàlisi de Fourier 
+a) Per a la codificació de textura.
+b) Per a la codificació de Hauffmann.
+c) Per a la codificació de color.
+d) Cap de les anteriors.
+14.b En el format de mostreig de croma, 4:2:0 implica amb respecta a la definició de luminància:
+a) Cr i Cb estan subsamplejats en un factor 2 verticalment.
+b) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i també vertical.
+c) La meitat de definició de croma a nivell horitzontal i un quart a nivell vertical.
+d) Cap de les anteriors
+15.b A MPEG-7 
+a) Es defineix un format de codificació de vídeo.
+b) Es defineix una manera de generar metadata per a la indexació de vídeo.
+c) Es defineix un format de codificació de so.
+d) Cap de les anteriors
+16.d Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4.
+a) Codificació d'objectes basada en grafs (graph object coding).
+b) Codificació de textura basada en 2D multifractal analysis.
+c) Codificació temporal basada en flux òptic (optical flow). 
+d) Cap de les anteriors és pròpia de l’MPEG-4.
+17.c MPEG-4 defineix l'estàndard de codificació:
+a) H.261
+b) H.263
+c) H.264
+d) Cap dels estàndards anteriors són part de l'especificació MPEG-4.
+18.a En un document LaTeX, el fitxer sty
+a) Defineix els packages d’estil.
+b) Conté la sortida postcrip.
+c) Defineix l’idioma.
+d) Conté el codi font
+1.d Des del punt de vista de la percepció humana
+a) Tothom tenim els mateixos llindars.
+b) Els llindars depenen dels dispositius de visualització.
+c) Els llindars depenen del sistema de compressió.
+d) Cap de les anteriors. 
+2.c Des del punt de vista de la percepció humana:
+a) Luminància i crominància tenen nivells de definició semblants.
+b) Els éssers humans som menys sensibles a detalls en la luminància.
+c) Els éssers humans som menys sensibles a detalls en la crominància.
+d) La luminància i la crominància defineixen fenòmens diferents amb llindars de detall no comparables.
+3.c En el format de mostreig de croma, 4:2:0 implica amb respecte a la definició de luminància: 
+a) La meitat de definició de croma a nivell horitzontal i un quart a nivell vertical.
+b) Cr i Cb estan subsamplejats en un factor 2 verticalment. 
+c) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i també vertical.
+d) Cap de les anteriors
+4.b En un codificador (encoder) JPEG lossy, la part de pèrdua hi es: 
+a) Al mòdul de mapeig símbol a codi (symbol to code mapping).
+b) Al mòdul de quantització.
+c) Enlloc
+d) A cap de les anteriors. 
+5.b Quina afirmació es falsa: En un codificador (encoder) JPEG-lossless:
+a) La idea principal es fer servir els veïns d’un píxel per avançar el seu valor i així codificar l’aproximació.
+b) La idea principal es fer servir els veïns d’un píxel per avançar el seu valor i així codificar l’error.
+c) La idea principal es fer servir us sistema que impliqui una quantificació de l'error.
+d) Cap de les anteriors. 
+6.d JPEG lossy fa servir anàlisi de wavelet 
+a) Per a la codificació de textura.
+b) Per a la codificació de Hauffmann. 
+c) Per a la codificació de luminància, però no per a la crominància. 
+d) Cap de les anteriors. 
+7.b La codificació de coeficients de la DCT en progressiu
+a) Comença afegint els coeficients amb més detall (els més rellevants), i progressivament afegeix coeficients amb menys detall.
+b) Comença afegint els coeficients amb menys detall i progressivament afegeix coeficients amb més detall.
+c) Afegeix progressivament els slices de cada frame.
+d) Comença afegint el coeficient DC, després els coeficients parells, i després els senars (o viceversa). 
+8.d En què consisteix el baseline d’un estàndard de codificació d’imatge o vídeo?
+a) És un conjunt obligatori de normes que ha de complir cada encoder i cada decoder.
+b) És un conjunt obligatori de normes que ha de complir cada encoder , però no necessàriament el decoder
+c) És un cojunt opcional de normes que pot està associat a la configuració bàsica del decoder.
+d) Cap de les anteriors.
+9.b Al JPEG es possible fer control del nivell de quantització?
+a) Sí, si el manufacturer decideix aplicar un nou sistema de quantització al marge del baseline. 
+b) Si, amb un factor d’escala que modifica els coeficients de quantització.
+c) No, perquè les taules de quantització no són modificables.
+d) Cap de les anteriors.
+10.a El JPEG lossy és part del conjunt d’estàndards:
+a) ISO 10918-1,2,3 
+b) ISO 10924-1,2,3 
+c) ISO 10936-1,2,3 
+d) Cap dels anteriors
+11.d Quina afirmació es correcta; El coeficient [0,0] de la DCT:
+a) És codificat per separat de la resta de coeficients després d’aplicar una taula de quantització específica. 
+b) És codificat per separat de la resta de coeficients a partir dels bits més significatius. 
+c) És codificat de manera normal amb la resta de coeficients.
+d) Cap de les anteriors.
+12.d El coeficient [0,0] de la DCT pot ser interpretat com: 
+a) El nivell de textura màxima de cada bloc.
+b) Un indicador de la quantitat de detall que hi trobem, a cada bloc.
+c) Un indicador de la complexitat de la textura de cada bloc. 
+d) Cap de les anteriors.
+13.d Els coeficients AC de la DCT dintre de l’estàndard JPEG
+a) Són codificats de manera diferencial amb el DC. 
+b) Són codificats de manera seqüencial per files i columnes.
+c) És possible triar el modus de codificació, per files, o en ziga-zaga.
+d) Cap de les anteriors. 
+14.c Què és el JND?
+a) Un valor definit de manera teòrica el qual indica a partir de quin valor la reconstrucció de la imatge estarà perceptualment lliure de distorsió. 
+b) Un valor definit de manera experimental el qual indica a partir de quin valor el MSE de la imatge codificada supera uns llindars acceptables de qualitat.
+c) Un valor definit de manera experimental el qual indica a partir de quin valor la reconstrucció de la imatge estarà perceptualment lliure de distorsió. 
+d) Cap de les anteriors.
+15.c En el modus jeràrquic de codificació 
+a) la resolució més alta pot ser codificada de manera seqüencial i les més altes de manera diferencial.
+b) totes les resolucions són codificades de manera diferencial.
+c) la resolució més baixa pot ser codificada de manera seqüencial i les més altes de manera diferencial.
+d) Cap de les anteriors. 
+16.a Al codificador d’entropia: 
+a) Símbols menys freqüents tenen associades paraules de més bits.
+b) Símbols més freqüents tenen associades paraules de menys bits.
+c) Tots els símbols són codificats amb el mateix nombre de bits.
+d) Cap de les anteriors. 
+17.d Al codificador d’entropia: 
+a) El paràmetre Q es permet modular el compression rate. 
+b) El paràmetre Q es permet modular el bit rate.
+c) El paràmetre Q es permet modular el quality rate.
+d) Cap de les anteriors.
+18.d La codificació aritmètica
+a) Forma part del quantitzador de coeficients de la DCT.
+b) No està prevista en JPG.
+c) Permet una compressió amb loosy eficient en el mòdul de VLC. 
+d) Cap de les anteriors.
+19.c Una de les estratègies bàsiques dintre de la codificació del VLC és 
+a) Definir un símbol per totes les cadenes de valors iguals.
+b) Definir un símbol només per a les cadenes de números grans.
+c) Definir un símbol només per a les cadenes de zeros.
+d) Definir un símbol per a les cadenes números petits.
+20.c Al vídeo: 
+a) La redundància estadística només té una component temporal.
+b) La redundància estadística només té una component espacial.
+c) La redundància estadística té una component espacial i una altra de temporal.
+d) Cap de les anteriors.
+21.d Al model generalitzat de compressió de vídeo: 
+a) Es codifica la predicció inter-frame sempre que bit-rate sigui alt.
+b) Es codifica la predicció inter-frame sempre que Q-parameter sigui alt 
+c) Es codifica la predicció inter-frame sempre, amb independència del bit-rate i el Qparameter.
+d) Cap de les anteriors.
+22.c MPEG-4 defineix l'estàndard de codificació:
+a) H.261
+b) H.263
+c) H.264
+d) Cap dels estàndards anteriors són part de l'especificació MPEG-4.
+23.a A l'estàndard MPEG-1 
+a) La codificació dels frames es pot fer a partir de dos models diferents de predicció.
+b) La codificació dels frames es fa a partir d'un model únic predicció.
+c) La codificació dels frames es fa fer a partir d'un model sense predicció.
+d) Cap dels estàndards anteriors són part de l'especificació MPEG-1. 
+24.b Block-matching permet
+a) L'assignació de vectors de moviment a blocs.
+b) L'assignació de vectors de moviment a macroblocs.
+c) L'assignació de vectors de moviment a slices.
+d) Cap de les anteriors.
+25.c Dintre del bit-stream MPEG-1 
+a) Establim la recuperació de sincronia a partir de headers.
+b) Establim la recuperació de sincronia a partir de sync controlers en el decoder.
+c) Establim la recuperació de sincronia a partir de clear words.
+d) Establim la recuperació de sincronia a partir de les taules de decodificació del codificador d'entropia.
+26.d Dintre de l'estàndard MPEG-2 
+a) Els profiles defineixen el nivell màxim de qualitat d'una aplicació.
+b) Els profiles defineixen el nivell mínim de qualitat d'una aplicació.
+c) Els profiles defineixen el nivell promig de qualitat d'una aplicació.
+d) Cap de les anteriors.
+27.c Quin de les següents eines no està definida a l'estàndard MPG-4 
+a) DCT.
+b) Wavelet.
+c) Local binary patterns.
+d) Cap de les anteriors.
+28.c Una de les estratègies de codificació eficaç d'objectes multimèdia a MPEG-4 consisteix en: 
+a) Codificar la textura dels objectes per separat i exclusivament amb wavelets de cara a optimitzar la compressió.
+b) Codificar la forma dels objectes per separat a partir de l'aplicació de local binary patterns.
+c) Codificar el background per separat.
+d) Codificar exclusivament la luminància, deixant la part cromàtica sense codificar.
+29.a A partir de la definició de l'estàndar MPG-7 
+a) Podem descriure la forma dels objectes a partir de Fourier descriptors.
+b) Podem descriure la textura dels objectes a partir de mesh coding.
+c) Podem descriure el color dels objectes a partir de DCT.
+d) Cap de les anteriors.
+30.c L'estàndard MPEG-21 
+a) Adreça la organització de les dades a sistemes de magatzematge.
+b) Adreça l'accés a les dades en sistemes de video retrieval.
+c) Adreça els drets d'autor de les dades.
+d) Cap de les anteriors
+1.d El nombre de línies d'un televisor va venir fixat als primers televisors en funció de 
+a) Estàndards previs. 
+b) Paràmetres basats en elements electrònics. 
+c) El nombre màxim d'electrons possible dintre del tub de raigs catòdics. 
+d) Llindars perceptuals. 
+2.a Des del punt de vista de la percepció humana 
+a) Els éssers humans som més sensibles a detalls en la luminància 
+b) Luminància i crominància tenen nivells de definició semblants. 
+c) Els éssers humans som més sensibles a detalls en la crominància. 
+d) La luminància i la crominància defineixen fenòmens diferents amb llindars de detall no comparables. 
+3.d La presència de dos camps (fields) en la emissió de TV permet: 
+a) Reduir l'ample de banda i eliminar interferència. 
+b) Reduir el nombre de línies i enviar mes informació, augmentant el parpelleig (flickering). 
+c) Augmentar la freqüència vertical 
+d) Augmentar la freqüència de refresc i evitar el parpelleig (flickering). 
+4.d El sistema PAL emet amb 
+a) Freqüència vertical de 60Hz, freqüència horitzontal de 15.625kHz, i 625 línies. 
+b) Freqüència vertical de 50Hz, freqüència horitzontal de 15.625kHz, i 525 línies. 
+c) Freqüència vertical de 60Hz, freqüència horitzontal de 15.625kHz, i 525 línies. 
+d) Freqüència vertical de 50Hz, freqüència horitzontal de 15.625kHz, i 625 línies.
+5.b El format JPEG-lossy elimina redundància fent servir: 
+a) Un operador temporal amb un procés de quantització i codificació eficient. 
+b) Un operador espacial amb un procés de quantització i codificació eficient. 
+c) Un operador multidimensional amb un procés de quantizació i codificació eficient. 
+d) Un operador amb compensació de moviment amb un procés de quantització i codificació eficient. 
+6.d En un codificador (encoder) JPEG-lossy, la part de pèrdua es troba 
+a) Al mòdul de codificació de entropia. 
+b) Al mòdul de la transformada DCT. 
+c) Al mòdul de mapeig símbol a codi (symbol to code mapping). 
+d) Al mòdul de quantització. 
+7.b JPEG-lossless implementa la compressió fent servir 
+a) Una predicció del valor del píxel basada en l’anàlisi de la redundància temporal dels veïns en els valors RGB. 
+b) Una predicció del valor del píxel basada en els valor de RGB del veïns més propers. 
+c) Una predicció del valor del píxel basada en la DCT. 
+d) Una predicció del valor del píxel basada en la FFT. 
+8.b JPEG-LS, 
+a) Té la possibilitat d'incloure-hi fractal compression.
+b) No té pèrdua d'informació associada a la compressió. 
+c) Té un disseny més senzill que el JPEG standard amb pèrdua. 
+d) És més ràpid que el JPEG standard amb pèrdua 
+9.c MPEG-1 codifica a partir de Source Input Format (SIF) 
+a) Perquè en el moment de creació de l'estàndard no n'hi havien altres formats. 
+b) Perquè té un bit rate de compressió al voltant de 30.4Mbits/s. 
+c) Perquè té un bit rate sense compressió al voltant de 30.4Mbits/s. 
+d) Perquè té el mateix format per NTSC i PAL. 
+10.a Els frames I d'un grup d'imatges (group of pictures GOP) 
+a) Tenen el mínim nivell de compressió i no propaguen errors. 
+b) Tenen el mínim nivell de compressió, però no propaguen errors. 
+c) Tenen el màxim nivell de compressió i no propaguen errors. 
+d) Tenen el màxim nivell de compressió però propaguen errors. 
+11.b Els frames P d'un grup d'imatges (group of pictures GOP) 
+a) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I.. 
+b) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, o P. 
+c) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, P, o B. 
+d) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, P, i a l'últim i següent frame B. 
+12.b El format de DVD implementa la tecnologia 
+a) MPEG-1. 
+b) MPEG-2. 
+c) MPEG-4. 
+d) CCIR-601. 
+13.d La compensació de moviment al format MPEG-1 es realitza 
+a) A partir de blocs 8x8 dels valors de de luminància i crominància. 
+b) A partir de blocs 16x16 dels valors de la DCT. 
+c) A partir de blocs 8x8 dels valors del codificador d'entropia (entropy coder). 
+d) A partir de blocs 16x16 dels errors de predicció. 
+14.d La presència d'slices dintre del format MPEG-1 permet 
+a) La reducció de la redundància espacial a partir d'un agrupament de macroblocks (macroblock matching). 
+b) L'agrupació eficient de macroblocks per a la seva reconstrucció. 
+c) L'augment del nivell de compressió a partir de la codificació de longitud variable (VLC). 
+d) L'augment del sincronisme a partir de paraules clau clares (clear code words). 
+15.d Els nivells de quantització dintre de l'estàndard MPEG-1. 
+a) Estan definits a la part I de l'estàndard (System). 
+b) Estan definits a la part IV de l'estàndard (Conformance testings) 
+c) Estan definits a la part II de l'estàndard (Vídeo). 
+d) Cap de les anteriors.
+16.a La codificació de coeficients de la DCT en vídeo progressiu i entrellaçat (interlaced) 
+a) Fa servir diferents ordes de mostreig de coeficients, ja que el vídeo entrellaçat augmenta el contingut freqüencial a nivell vertical. 
+b) Fa servir diferents ordes de mostreig de coeficients, ja que el vídeo entrellaçat augmenta el contingut freqüencial a nivell horitzontal. 
+c) Fa servir els mateixos ordes de mostrieg de coeficients, ja que el vídeo entrellaçat no afegeix discrepàncies espacials, només temporals. 
+d) Fa servir els mateixos ordes de mostrieg de coeficients, ja que codifica sempre a nivell frame. 
+17.c Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4. 
+a) Codificació d'objectes basada en grafs (graph object coding). 
+b) Codificació de textura basada en wavelets.
+c) Codificació temporal basada en flux òptic (optical flow). 
+d) Cap de les anteriors és pròpia de l’MPEG-4. 
+18.d La principal diferència entre MPEG-2 i MPEG-4 és que, mentre MPEG-2 és un estàndard de codificació de vídeo: 
+a) MPEG-4 permet la codificació de metadades de manera eficient. 
+b) MPEG-4 permet la inclusió de múltiples eines d'altres estàndards. 
+c) MPEG-4 permet la manipulació d'objectes de base de dades. 
+d) Cap de les anteriors respostes és correcta. 
+19.c La escalabilitat espacial (spatial scalability ) dintre del format de vídeo MPEG-2 
+a) no està prevista. 
+b) és accessible des de tots els perfils. 
+c) només és accessible des del perfils més alts. 
+d) només és accessible des dels perfils més baixos. 
+20.c En el format de mostreig de croma, 4:2:0 implica amb respecta a la definició de luminància 
+a) Cr i Cb estan subsamplejats en un factor 2 horitzontalment. 
+b) Cr i Cb estan subsamplejats en un factor 2 verticalment. 
+c) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i vertical
+d) Cr i Cb estan subsamplejats en un factor 2 verticalment, i un factor 4 horitzontalment. 
+21.d En quina de les següents etapes no es produeix pèrdua? 
+a) Codificació d'entropia 
+b) Codificació de longitud variable. 
+c) Arithmetic coding. 
+d) Cap de les anteriors etapes introdueixen pèrdua. 
+22.b Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4. 
+a) Codificació d'objectes basada en malla (mesh object coding). 
+b) Codificació temporal basada en fft (fast Fourier transform). 
+c) Codificació basada en models (model-based coding). 
+d) Codificació de textura basada en wavelets.
+23.d En MPEG-4, un sprite es defineix 
+a) com la reconstrucció del conjunt d'objectes d'una escena (foreground) a partir de predicció bidireccional. 
+b) com la reconstrucció d'una escena a partir de predicció bidireccional. 
+c) com la reconstrucció d'un objecte a partir de predicció bidireccional. 
+d) com la reconstrucció del fons d'una escena (bakground) a partir de predicció bidireccional. 
+24.b La Part IV dels estàndards MPEG-1 i MPEG-2 defineix 
+a) Un software de prova que serveix com a referència per als programadors. 
+b) El conjunt de proves que haurà de passar un còdec per ser comparable. 
+c) La sintaxi del bitstream. 
+d) Una implementació esquemàtica sobre l’encoder, que serveix de referència als implementadors, però que no es pas obligatòria. 
+25.a Quina de les següents característiques no és pròpia de H.264. 
+a) Un únic profile, però amb la màxima definició (Hi444PP). 
+b) Codificacío de diversos vectors de moviment per macroblock. 
+c) Mida variable de block. 
+d) Diversos profiles escalables. 
+26.d La metadada obtinguda mitjançant les interfícies MPEG-7 
+a) Està integrada en els sistemes de codificació de vídeo i permet la codificació eficient del contingut multimèdia. 
+b) Està integrada en el software del decodificador (decoder) de manera exclusiva, ja que l'estàndard no defineix el codificador (coder). 
+c) Està integrada en el bitstream del vídeo, però no serveix per accessos aleatoris a frames. 
+d) No està integrada en el vídeo, però serveix per fer accessos aleatoris a frames. 
+27.b En MPEG-7, un esquema de descripció (DS) pot consistir en 
+a) Un conjunt de descriptors. 
+b) Un conjunt de descriptors i altres esquemes de descripció. 
+c) Una codificació wavelet de la textura descriptiva de l’objecte de video (VO) 
+d) Cap de les anteriors. 
+28.c El llenguatge de marques extensible (Extensible markup language, XML) permet 
+a) Separar el document original de dades del document original de metadades. 
+b) Separar la metadada de la dada. 
+c) Separar el contingut de la representació. 
+d) Separar el format del document original de dades. 
+29.a Dublin Core representa una iniciativa que tracta de: 
+a) Unificar el conjunt de metadades per a tots el documents de cara a realitzar catalogacions eficients. 
+b) Unificar el conjunt de metadades per a tots els documents multimedia de cara a realitzar indexacions eficients dels contingut. 
+c) Unificar el conjunt de metadades associats a documents visuals i sonors exclusivament en un entorn multidisciplinar i amb interessos diferents. 
+d) Unificar el conjunt de metadades de cara a fer cerques a bases de dades fonamentades en tècniques de visió per computador. 
+30.b En un document de LaTeX, 
+a) L'usuari no pot definir noves etiquetes, però si un fitxer d'estil. 
+b) L'usuari pot definir noves etiquetes. 
+c) No es poden definir noves etiquetes. 
+d) Depèn del software que es faci servir.

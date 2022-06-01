@@ -1,0 +1,784 @@
+{
+    "questions": [
+        {
+            "correct": "b",
+            "question": "“Runs-of-zeros”\n",
+            "answers": [
+                "a) Permet codificar els símbols ‘zero’ amb un nombre mínim de bits.\n",
+                "b) Permet codificar cadenes de zeros amb un únic símbol.\n",
+                "c) Permet codificar eficientment el detall definit a partir de la quantització.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Al codificador d’entropia:\n",
+            "answers": [
+                "a) Es produeix compressió, però no hi ha pèrdua.\n",
+                "b) Es produeix compressió, però hi ha pèrdua.\n",
+                "c) No es produeix compressió, i no hi ha pèrdua.\n",
+                "d) No es produeix compressió, però hi ha pèrdua.\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Al codificador d’entropia:\n",
+            "answers": [
+                "a) Símbols més freqüents tenen associades paraules de més bits.\n",
+                "b) Símbols més freqüents tenen associades paraules de menys bits.\n",
+                "c) Tots els símbols són codificats amb el mateix nombre de bits.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Els coeficients AC de la DCT dintre de l’estàndard JPEG\n",
+            "answers": [
+                "a) Són codificats en ziga-zaga sempre.\n",
+                "b) Són codificats de manera seqüencial per files i columnes.\n",
+                "c) És possible triar el modus de codificació, per files, o en ziga-zaga.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Els coeficients de la DCT poden ser interpretats com a:\n",
+            "answers": [
+                "a) Els coeficients que multipliquen una base de vectors per reconstruir el bloc 8x8 sense pèrdua.\n",
+                "b) Els coeficients que multipliquen una base de vectors per reconstruir el bloc 8x8 amb pèrdua.\n",
+                "c) Els coeficients que multipliquen una base de vectors per reconstruir la imatge.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "El coeficient [0,0] de la DCT pot ser interpretat com a:\n",
+            "answers": [
+                "a) El nivell de textura màxima de cada bloc.\n",
+                "b) Un indicador de la quantitat de detall que hi trobem, a cada bloc.\n",
+                "c) El nivell promig de cada bloc.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Quina de les següents característiques no forma part del baseline de JPEG lossy:\n",
+            "answers": [
+                "a) Taules Hauffman customitzables.\n",
+                "b) Possibilitat de triar entre scaneig entrellaçat o no entrellaçat.\n",
+                "c) Reconstrucció progressiva.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "JPEG lossless implementa una transformació espacial que és aplicada a nivell\n",
+            "answers": [
+                "a) de tota la imatge.\n",
+                "b) de block.\n",
+                "c) de regions de veïnatge.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "JPEG lossy implementa una transformació espacial que és aplicada a nivell\n",
+            "answers": [
+                "a) de tota la imatge.\n",
+                "b) de block.\n",
+                "c) de regions d’interès perceptual.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Al JPEG es possible fer control del nivell de quantització?\n",
+            "answers": [
+                "a) Si, amb un factor d’escala que modifica els coeficients de quantització.\n",
+                "b) No, perquè les taules de quantització no són modificables.\n",
+                "c) Sí, si el manufacturer decideix aplicar un nou sistema de quantització al marge del baseline.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "En què consisteix el baseline d’un estàndard de codificació d’imatge o vídeo?\n",
+            "answers": [
+                "a) És un conjunt obligatori de normes que ha de complir cada encoder i cada decoder.\n",
+                "b) És un conjunt obligatori de normes que ha de complir cada encoder , però no necessàriament el decoder\n",
+                "c) És un cojunt opcional de normes que pot està associat a la configuració bàsica del decoder.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "La codificació de coeficients de la DCT en progressiu, a diferència de seqüencial...\n",
+            "answers": [
+                "a) No fa servir els mateixos ordes de mostreig de coeficients, però si les taules de quantització.\n",
+                "b) No fa servir els mateixos ordes de mostreig de coeficients, ni les taules de quantització.\n",
+                "c) Fa servir els mateixos ordes de mostrieg de coeficients, però no les mateixes taules de quantització.\n",
+                "d) Fa servir els mateixos ordes de mostrieg de coeficients, i les mateixes taules de quantització.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "JPEG fa servir anàlisi de Fourier \n",
+            "answers": [
+                "a) Per a la codificació de textura.\n",
+                "b) Per a la codificació de Hauffmann.\n",
+                "c) Per a la codificació de color.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "En el format de mostreig de croma, 4:2:0 implica amb respecta a la definició de luminància:\n",
+            "answers": [
+                "a) Cr i Cb estan subsamplejats en un factor 2 verticalment.\n",
+                "b) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i també vertical.\n",
+                "c) La meitat de definició de croma a nivell horitzontal i un quart a nivell vertical.\n",
+                "d) Cap de les anteriors\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "A MPEG-7 \n",
+            "answers": [
+                "a) Es defineix un format de codificació de vídeo.\n",
+                "b) Es defineix una manera de generar metadata per a la indexació de vídeo.\n",
+                "c) Es defineix un format de codificació de so.\n",
+                "d) Cap de les anteriors\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4.\n",
+            "answers": [
+                "a) Codificació d'objectes basada en grafs (graph object coding).\n",
+                "b) Codificació de textura basada en 2D multifractal analysis.\n",
+                "c) Codificació temporal basada en flux òptic (optical flow). \n",
+                "d) Cap de les anteriors és pròpia de l’MPEG-4.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "MPEG-4 defineix l'estàndard de codificació:\n",
+            "answers": [
+                "a) H.261\n",
+                "b) H.263\n",
+                "c) H.264\n",
+                "d) Cap dels estàndards anteriors són part de l'especificació MPEG-4.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "En un document LaTeX, el fitxer sty\n",
+            "answers": [
+                "a) Defineix els packages d’estil.\n",
+                "b) Conté la sortida postcrip.\n",
+                "c) Defineix l’idioma.\n",
+                "d) Conté el codi font\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Des del punt de vista de la percepció humana\n",
+            "answers": [
+                "a) Tothom tenim els mateixos llindars.\n",
+                "b) Els llindars depenen dels dispositius de visualització.\n",
+                "c) Els llindars depenen del sistema de compressió.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Des del punt de vista de la percepció humana:\n",
+            "answers": [
+                "a) Luminància i crominància tenen nivells de definició semblants.\n",
+                "b) Els éssers humans som menys sensibles a detalls en la luminància.\n",
+                "c) Els éssers humans som menys sensibles a detalls en la crominància.\n",
+                "d) La luminància i la crominància defineixen fenòmens diferents amb llindars de detall no comparables.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "En el format de mostreig de croma, 4:2:0 implica amb respecte a la definició de luminància: \n",
+            "answers": [
+                "a) La meitat de definició de croma a nivell horitzontal i un quart a nivell vertical.\n",
+                "b) Cr i Cb estan subsamplejats en un factor 2 verticalment. \n",
+                "c) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i també vertical.\n",
+                "d) Cap de les anteriors\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "En un codificador (encoder) JPEG lossy, la part de pèrdua hi es: \n",
+            "answers": [
+                "a) Al mòdul de mapeig símbol a codi (symbol to code mapping).\n",
+                "b) Al mòdul de quantització.\n",
+                "c) Enlloc\n",
+                "d) A cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Quina afirmació es falsa: En un codificador (encoder) JPEG-lossless:\n",
+            "answers": [
+                "a) La idea principal es fer servir els veïns d’un píxel per avançar el seu valor i així codificar l’aproximació.\n",
+                "b) La idea principal es fer servir els veïns d’un píxel per avançar el seu valor i així codificar l’error.\n",
+                "c) La idea principal es fer servir us sistema que impliqui una quantificació de l'error.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "JPEG lossy fa servir anàlisi de wavelet \n",
+            "answers": [
+                "a) Per a la codificació de textura.\n",
+                "b) Per a la codificació de Hauffmann. \n",
+                "c) Per a la codificació de luminància, però no per a la crominància. \n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "La codificació de coeficients de la DCT en progressiu\n",
+            "answers": [
+                "a) Comença afegint els coeficients amb més detall (els més rellevants), i progressivament afegeix coeficients amb menys detall.\n",
+                "b) Comença afegint els coeficients amb menys detall i progressivament afegeix coeficients amb més detall.\n",
+                "c) Afegeix progressivament els slices de cada frame.\n",
+                "d) Comença afegint el coeficient DC, després els coeficients parells, i després els senars (o viceversa). \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "En què consisteix el baseline d’un estàndard de codificació d’imatge o vídeo?\n",
+            "answers": [
+                "a) És un conjunt obligatori de normes que ha de complir cada encoder i cada decoder.\n",
+                "b) És un conjunt obligatori de normes que ha de complir cada encoder , però no necessàriament el decoder\n",
+                "c) És un cojunt opcional de normes que pot està associat a la configuració bàsica del decoder.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Al JPEG es possible fer control del nivell de quantització?\n",
+            "answers": [
+                "a) Sí, si el manufacturer decideix aplicar un nou sistema de quantització al marge del baseline. \n",
+                "b) Si, amb un factor d’escala que modifica els coeficients de quantització.\n",
+                "c) No, perquè les taules de quantització no són modificables.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "El JPEG lossy és part del conjunt d’estàndards:\n",
+            "answers": [
+                "a) ISO 10918-1,2,3 \n",
+                "b) ISO 10924-1,2,3 \n",
+                "c) ISO 10936-1,2,3 \n",
+                "d) Cap dels anteriors\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Quina afirmació es correcta; El coeficient [0,0] de la DCT:\n",
+            "answers": [
+                "a) És codificat per separat de la resta de coeficients després d’aplicar una taula de quantització específica. \n",
+                "b) És codificat per separat de la resta de coeficients a partir dels bits més significatius. \n",
+                "c) És codificat de manera normal amb la resta de coeficients.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "El coeficient [0,0] de la DCT pot ser interpretat com: \n",
+            "answers": [
+                "a) El nivell de textura màxima de cada bloc.\n",
+                "b) Un indicador de la quantitat de detall que hi trobem, a cada bloc.\n",
+                "c) Un indicador de la complexitat de la textura de cada bloc. \n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Els coeficients AC de la DCT dintre de l’estàndard JPEG\n",
+            "answers": [
+                "a) Són codificats de manera diferencial amb el DC. \n",
+                "b) Són codificats de manera seqüencial per files i columnes.\n",
+                "c) És possible triar el modus de codificació, per files, o en ziga-zaga.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Què és el JND?\n",
+            "answers": [
+                "a) Un valor definit de manera teòrica el qual indica a partir de quin valor la reconstrucció de la imatge estarà perceptualment lliure de distorsió. \n",
+                "b) Un valor definit de manera experimental el qual indica a partir de quin valor el MSE de la imatge codificada supera uns llindars acceptables de qualitat.\n",
+                "c) Un valor definit de manera experimental el qual indica a partir de quin valor la reconstrucció de la imatge estarà perceptualment lliure de distorsió. \n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "En el modus jeràrquic de codificació \n",
+            "answers": [
+                "a) la resolució més alta pot ser codificada de manera seqüencial i les més altes de manera diferencial.\n",
+                "b) totes les resolucions són codificades de manera diferencial.\n",
+                "c) la resolució més baixa pot ser codificada de manera seqüencial i les més altes de manera diferencial.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Al codificador d’entropia: \n",
+            "answers": [
+                "a) Símbols menys freqüents tenen associades paraules de més bits.\n",
+                "b) Símbols més freqüents tenen associades paraules de menys bits.\n",
+                "c) Tots els símbols són codificats amb el mateix nombre de bits.\n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Al codificador d’entropia: \n",
+            "answers": [
+                "a) El paràmetre Q es permet modular el compression rate. \n",
+                "b) El paràmetre Q es permet modular el bit rate.\n",
+                "c) El paràmetre Q es permet modular el quality rate.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La codificació aritmètica\n",
+            "answers": [
+                "a) Forma part del quantitzador de coeficients de la DCT.\n",
+                "b) No està prevista en JPG.\n",
+                "c) Permet una compressió amb loosy eficient en el mòdul de VLC. \n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Una de les estratègies bàsiques dintre de la codificació del VLC és \n",
+            "answers": [
+                "a) Definir un símbol per totes les cadenes de valors iguals.\n",
+                "b) Definir un símbol només per a les cadenes de números grans.\n",
+                "c) Definir un símbol només per a les cadenes de zeros.\n",
+                "d) Definir un símbol per a les cadenes números petits.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Al vídeo: \n",
+            "answers": [
+                "a) La redundància estadística només té una component temporal.\n",
+                "b) La redundància estadística només té una component espacial.\n",
+                "c) La redundància estadística té una component espacial i una altra de temporal.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Al model generalitzat de compressió de vídeo: \n",
+            "answers": [
+                "a) Es codifica la predicció inter-frame sempre que bit-rate sigui alt.\n",
+                "b) Es codifica la predicció inter-frame sempre que Q-parameter sigui alt \n",
+                "c) Es codifica la predicció inter-frame sempre, amb independència del bit-rate i el Q\u0002parameter.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "MPEG-4 defineix l'estàndard de codificació:\n",
+            "answers": [
+                "a) H.261\n",
+                "b) H.263\n",
+                "c) H.264\n",
+                "d) Cap dels estàndards anteriors són part de l'especificació MPEG-4.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "A l'estàndard MPEG-1 \n",
+            "answers": [
+                "a) La codificació dels frames es pot fer a partir de dos models diferents de predicció.\n",
+                "b) La codificació dels frames es fa a partir d'un model únic predicció.\n",
+                "c) La codificació dels frames es fa fer a partir d'un model sense predicció.\n",
+                "d) Cap dels estàndards anteriors són part de l'especificació MPEG-1. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Block-matching permet\n",
+            "answers": [
+                "a) L'assignació de vectors de moviment a blocs.\n",
+                "b) L'assignació de vectors de moviment a macroblocs.\n",
+                "c) L'assignació de vectors de moviment a slices.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Dintre del bit-stream MPEG-1 \n",
+            "answers": [
+                "a) Establim la recuperació de sincronia a partir de headers.\n",
+                "b) Establim la recuperació de sincronia a partir de sync controlers en el decoder.\n",
+                "c) Establim la recuperació de sincronia a partir de clear words.\n",
+                "d) Establim la recuperació de sincronia a partir de les taules de decodificació del codificador d'entropia.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Dintre de l'estàndard MPEG-2 \n",
+            "answers": [
+                "a) Els profiles defineixen el nivell màxim de qualitat d'una aplicació.\n",
+                "b) Els profiles defineixen el nivell mínim de qualitat d'una aplicació.\n",
+                "c) Els profiles defineixen el nivell promig de qualitat d'una aplicació.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Quin de les següents eines no està definida a l'estàndard MPG-4 \n",
+            "answers": [
+                "a) DCT.\n",
+                "b) Wavelet.\n",
+                "c) Local binary patterns.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Una de les estratègies de codificació eficaç d'objectes multimèdia a MPEG-4 consisteix en: \n",
+            "answers": [
+                "a) Codificar la textura dels objectes per separat i exclusivament amb wavelets de cara a optimitzar la compressió.\n",
+                "b) Codificar la forma dels objectes per separat a partir de l'aplicació de local binary patterns.\n",
+                "c) Codificar el background per separat.\n",
+                "d) Codificar exclusivament la luminància, deixant la part cromàtica sense codificar.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "A partir de la definició de l'estàndar MPG-7 \n",
+            "answers": [
+                "a) Podem descriure la forma dels objectes a partir de Fourier descriptors.\n",
+                "b) Podem descriure la textura dels objectes a partir de mesh coding.\n",
+                "c) Podem descriure el color dels objectes a partir de DCT.\n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "L'estàndard MPEG-21 \n",
+            "answers": [
+                "a) Adreça la organització de les dades a sistemes de magatzematge.\n",
+                "b) Adreça l'accés a les dades en sistemes de video retrieval.\n",
+                "c) Adreça els drets d'autor de les dades.\n",
+                "d) Cap de les anteriors\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "El nombre de línies d'un televisor va venir fixat als primers televisors en funció de \n",
+            "answers": [
+                "a) Estàndards previs. \n",
+                "b) Paràmetres basats en elements electrònics. \n",
+                "c) El nombre màxim d'electrons possible dintre del tub de raigs catòdics. \n",
+                "d) Llindars perceptuals. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Des del punt de vista de la percepció humana \n",
+            "answers": [
+                "a) Els éssers humans som més sensibles a detalls en la luminància \n",
+                "b) Luminància i crominància tenen nivells de definició semblants. \n",
+                "c) Els éssers humans som més sensibles a detalls en la crominància. \n",
+                "d) La luminància i la crominància defineixen fenòmens diferents amb llindars de detall no comparables. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La presència de dos camps (fields) en la emissió de TV permet: \n",
+            "answers": [
+                "a) Reduir l'ample de banda i eliminar interferència. \n",
+                "b) Reduir el nombre de línies i enviar mes informació, augmentant el parpelleig (flickering). \n",
+                "c) Augmentar la freqüència vertical \n",
+                "d) Augmentar la freqüència de refresc i evitar el parpelleig (flickering). \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "El sistema PAL emet amb \n",
+            "answers": [
+                "a) Freqüència vertical de 60Hz, freqüència horitzontal de 15.625kHz, i 625 línies. \n",
+                "b) Freqüència vertical de 50Hz, freqüència horitzontal de 15.625kHz, i 525 línies. \n",
+                "c) Freqüència vertical de 60Hz, freqüència horitzontal de 15.625kHz, i 525 línies. \n",
+                "d) Freqüència vertical de 50Hz, freqüència horitzontal de 15.625kHz, i 625 línies.\n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "El format JPEG-lossy elimina redundància fent servir: \n",
+            "answers": [
+                "a) Un operador temporal amb un procés de quantització i codificació eficient. \n",
+                "b) Un operador espacial amb un procés de quantització i codificació eficient. \n",
+                "c) Un operador multidimensional amb un procés de quantizació i codificació eficient. \n",
+                "d) Un operador amb compensació de moviment amb un procés de quantització i codificació eficient. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "En un codificador (encoder) JPEG-lossy, la part de pèrdua es troba \n",
+            "answers": [
+                "a) Al mòdul de codificació de entropia. \n",
+                "b) Al mòdul de la transformada DCT. \n",
+                "c) Al mòdul de mapeig símbol a codi (symbol to code mapping). \n",
+                "d) Al mòdul de quantització. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "JPEG-lossless implementa la compressió fent servir \n",
+            "answers": [
+                "a) Una predicció del valor del píxel basada en l’anàlisi de la redundància temporal dels veïns en els valors RGB. \n",
+                "b) Una predicció del valor del píxel basada en els valor de RGB del veïns més propers. \n",
+                "c) Una predicció del valor del píxel basada en la DCT. \n",
+                "d) Una predicció del valor del píxel basada en la FFT. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "JPEG-LS, \n",
+            "answers": [
+                "a) Té la possibilitat d'incloure-hi fractal compression.\n",
+                "b) No té pèrdua d'informació associada a la compressió. \n",
+                "c) Té un disseny més senzill que el JPEG standard amb pèrdua. \n",
+                "d) És més ràpid que el JPEG standard amb pèrdua \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "MPEG-1 codifica a partir de Source Input Format (SIF) \n",
+            "answers": [
+                "a) Perquè en el moment de creació de l'estàndard no n'hi havien altres formats. \n",
+                "b) Perquè té un bit rate de compressió al voltant de 30.4Mbits/s. \n",
+                "c) Perquè té un bit rate sense compressió al voltant de 30.4Mbits/s. \n",
+                "d) Perquè té el mateix format per NTSC i PAL. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Els frames I d'un grup d'imatges (group of pictures GOP) \n",
+            "answers": [
+                "a) Tenen el mínim nivell de compressió i no propaguen errors. \n",
+                "b) Tenen el mínim nivell de compressió, però no propaguen errors. \n",
+                "c) Tenen el màxim nivell de compressió i no propaguen errors. \n",
+                "d) Tenen el màxim nivell de compressió però propaguen errors. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Els frames P d'un grup d'imatges (group of pictures GOP) \n",
+            "answers": [
+                "a) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I.. \n",
+                "b) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, o P. \n",
+                "c) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, P, o B. \n",
+                "d) Contenen informació sobre la diferencia de compensació de moviment amb relació a l'últim frame I, P, i a l'últim i següent frame B. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "El format de DVD implementa la tecnologia \n",
+            "answers": [
+                "a) MPEG-1. \n",
+                "b) MPEG-2. \n",
+                "c) MPEG-4. \n",
+                "d) CCIR-601. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La compensació de moviment al format MPEG-1 es realitza \n",
+            "answers": [
+                "a) A partir de blocs 8x8 dels valors de de luminància i crominància. \n",
+                "b) A partir de blocs 16x16 dels valors de la DCT. \n",
+                "c) A partir de blocs 8x8 dels valors del codificador d'entropia (entropy coder). \n",
+                "d) A partir de blocs 16x16 dels errors de predicció. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La presència d'slices dintre del format MPEG-1 permet \n",
+            "answers": [
+                "a) La reducció de la redundància espacial a partir d'un agrupament de macroblocks (macroblock matching). \n",
+                "b) L'agrupació eficient de macroblocks per a la seva reconstrucció. \n",
+                "c) L'augment del nivell de compressió a partir de la codificació de longitud variable (VLC). \n",
+                "d) L'augment del sincronisme a partir de paraules clau clares (clear code words). \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "Els nivells de quantització dintre de l'estàndard MPEG-1. \n",
+            "answers": [
+                "a) Estan definits a la part I de l'estàndard (System). \n",
+                "b) Estan definits a la part IV de l'estàndard (Conformance testings) \n",
+                "c) Estan definits a la part II de l'estàndard (Vídeo). \n",
+                "d) Cap de les anteriors.\n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "La codificació de coeficients de la DCT en vídeo progressiu i entrellaçat (interlaced) \n",
+            "answers": [
+                "a) Fa servir diferents ordes de mostreig de coeficients, ja que el vídeo entrellaçat augmenta el contingut freqüencial a nivell vertical. \n",
+                "b) Fa servir diferents ordes de mostreig de coeficients, ja que el vídeo entrellaçat augmenta el contingut freqüencial a nivell horitzontal. \n",
+                "c) Fa servir els mateixos ordes de mostrieg de coeficients, ja que el vídeo entrellaçat no afegeix discrepàncies espacials, només temporals. \n",
+                "d) Fa servir els mateixos ordes de mostrieg de coeficients, ja que codifica sempre a nivell frame. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4. \n",
+            "answers": [
+                "a) Codificació d'objectes basada en grafs (graph object coding). \n",
+                "b) Codificació de textura basada en wavelets.\n",
+                "c) Codificació temporal basada en flux òptic (optical flow). \n",
+                "d) Cap de les anteriors és pròpia de l’MPEG-4. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La principal diferència entre MPEG-2 i MPEG-4 és que, mentre MPEG-2 és un estàndard de codificació de vídeo: \n",
+            "answers": [
+                "a) MPEG-4 permet la codificació de metadades de manera eficient. \n",
+                "b) MPEG-4 permet la inclusió de múltiples eines d'altres estàndards. \n",
+                "c) MPEG-4 permet la manipulació d'objectes de base de dades. \n",
+                "d) Cap de les anteriors respostes és correcta. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "La escalabilitat espacial (spatial scalability ) dintre del format de vídeo MPEG-2 \n",
+            "answers": [
+                "a) no està prevista. \n",
+                "b) és accessible des de tots els perfils. \n",
+                "c) només és accessible des del perfils més alts. \n",
+                "d) només és accessible des dels perfils més baixos. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "En el format de mostreig de croma, 4:2:0 implica amb respecta a la definició de luminància \n",
+            "answers": [
+                "a) Cr i Cb estan subsamplejats en un factor 2 horitzontalment. \n",
+                "b) Cr i Cb estan subsamplejats en un factor 2 verticalment. \n",
+                "c) Cr i Cb estan subsamplejats en un factor 2 horitzontalment i vertical\n",
+                "d) Cr i Cb estan subsamplejats en un factor 2 verticalment, i un factor 4 horitzontalment. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "En quina de les següents etapes no es produeix pèrdua? \n",
+            "answers": [
+                "a) Codificació d'entropia \n",
+                "b) Codificació de longitud variable. \n",
+                "c) Arithmetic coding. \n",
+                "d) Cap de les anteriors etapes introdueixen pèrdua. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "Quina de les següents eines de codificació no és pròpia de l'estàndard MPEG-4. \n",
+            "answers": [
+                "a) Codificació d'objectes basada en malla (mesh object coding). \n",
+                "b) Codificació temporal basada en fft (fast Fourier transform). \n",
+                "c) Codificació basada en models (model-based coding). \n",
+                "d) Codificació de textura basada en wavelets.\n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "En MPEG-4, un sprite es defineix \n",
+            "answers": [
+                "a) com la reconstrucció del conjunt d'objectes d'una escena (foreground) a partir de predicció bidireccional. \n",
+                "b) com la reconstrucció d'una escena a partir de predicció bidireccional. \n",
+                "c) com la reconstrucció d'un objecte a partir de predicció bidireccional. \n",
+                "d) com la reconstrucció del fons d'una escena (bakground) a partir de predicció bidireccional. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "La Part IV dels estàndards MPEG-1 i MPEG-2 defineix \n",
+            "answers": [
+                "a) Un software de prova que serveix com a referència per als programadors. \n",
+                "b) El conjunt de proves que haurà de passar un còdec per ser comparable. \n",
+                "c) La sintaxi del bitstream. \n",
+                "d) Una implementació esquemàtica sobre l’encoder, que serveix de referència als implementadors, però que no es pas obligatòria. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Quina de les següents característiques no és pròpia de H.264. \n",
+            "answers": [
+                "a) Un únic profile, però amb la màxima definició (Hi444PP). \n",
+                "b) Codificacío de diversos vectors de moviment per macroblock. \n",
+                "c) Mida variable de block. \n",
+                "d) Diversos profiles escalables. \n"
+            ]
+        },
+        {
+            "correct": "d",
+            "question": "La metadada obtinguda mitjançant les interfícies MPEG-7 \n",
+            "answers": [
+                "a) Està integrada en els sistemes de codificació de vídeo i permet la codificació eficient del contingut multimèdia. \n",
+                "b) Està integrada en el software del decodificador (decoder) de manera exclusiva, ja que l'estàndard no defineix el codificador (coder). \n",
+                "c) Està integrada en el bitstream del vídeo, però no serveix per accessos aleatoris a frames. \n",
+                "d) No està integrada en el vídeo, però serveix per fer accessos aleatoris a frames. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "En MPEG-7, un esquema de descripció (DS) pot consistir en \n",
+            "answers": [
+                "a) Un conjunt de descriptors. \n",
+                "b) Un conjunt de descriptors i altres esquemes de descripció. \n",
+                "c) Una codificació wavelet de la textura descriptiva de l’objecte de video (VO) \n",
+                "d) Cap de les anteriors. \n"
+            ]
+        },
+        {
+            "correct": "c",
+            "question": "El llenguatge de marques extensible (Extensible markup language, XML) permet \n",
+            "answers": [
+                "a) Separar el document original de dades del document original de metadades. \n",
+                "b) Separar la metadada de la dada. \n",
+                "c) Separar el contingut de la representació. \n",
+                "d) Separar el format del document original de dades. \n"
+            ]
+        },
+        {
+            "correct": "a",
+            "question": "Dublin Core representa una iniciativa que tracta de: \n",
+            "answers": [
+                "a) Unificar el conjunt de metadades per a tots el documents de cara a realitzar catalogacions eficients. \n",
+                "b) Unificar el conjunt de metadades per a tots els documents multimedia de cara a realitzar indexacions eficients dels contingut. \n",
+                "c) Unificar el conjunt de metadades associats a documents visuals i sonors exclusivament en un entorn multidisciplinar i amb interessos diferents. \n",
+                "d) Unificar el conjunt de metadades de cara a fer cerques a bases de dades fonamentades en tècniques de visió per computador. \n"
+            ]
+        },
+        {
+            "correct": "b",
+            "question": "En un document de LaTeX, \n",
+            "answers": [
+                "a) L'usuari no pot definir noves etiquetes, però si un fitxer d'estil. \n",
+                "b) L'usuari pot definir noves etiquetes. \n",
+                "c) No es poden definir noves etiquetes. \n",
+                "d) Depèn del software que es faci servir."
+            ]
+        }
+    ]
+}
